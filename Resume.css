@@ -1,0 +1,54 @@
+.maindiv{
+  background: #F4D5FE;
+  display: flex;
+  justify-content:space-between;
+}
+.leftdiv{
+  text-align: center;
+  background: #91FCE9;
+position:fixed;
+height: auto;
+width: 25%;
+}
+.rightdiv{
+  margin-left: 26%;
+  background: #91C7FC;
+  width: 78%;
+  padding: 10px;
+}
+.image1{
+  width: 80%;
+}
+@media all and (max-width:768px)and (min-width:500px){
+  body{
+    background: silver;
+  }
+  .mainDiv{
+  width: 100%;
+  flex-wrap: wrap;
+  }
+  .leftdiv{
+      position: relative;
+    display: flex;
+    width: 100%;
+  }
+    .rightdiv{
+    width: 100%;
+    margin-left:0%;
+    }
+
+}
+@media all and (min-width:360px)and (max-width:449px) {
+  .mainDiv{
+    background: silver;
+    width: 100%;
+  }
+  .leftdiv{
+    width: 100%;
+    display: flex;
+  }
+  .rightdiv{
+    width: 100%;
+    margin-left: 0%;
+  }
+}

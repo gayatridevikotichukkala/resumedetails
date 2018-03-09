@@ -1,0 +1,49 @@
+.mainDiv{
+  height: 350px;
+  margin-top: 100px;
+  background: white  ;
+display: flex;
+justify-content: space-around;
+}
+.sub1{
+  background: #79C7FA;
+  border-radius: 10px;
+  box-shadow:2px 5px 5px 2px black;
+}
+.sub2{
+  background: #79C7FA;
+  border-radius: 10px;
+  box-shadow:2px 5px 5px 2px black;
+
+}
+.sub3{
+  background: #79C7FA;
+  border-radius: 10px;
+  box-shadow:2px 5px 5px 2px black;
+}
+body{
+  background: #F4D5FE;
+}
+.image1{
+  margin: 5px;
+  width: 250px;
+  height: 250px;
+  border-radius:10px;
+}
+.image2{
+  margin: 5px;
+  width: 250px;
+  height: 250px;
+  border-radius:10px;
+}
+.image3{
+  margin: 5px;
+  width: 250px;
+  height: 250px;
+  border-radius:10px;
+}
+@media all and (max-width:768px) {
+body{
+  background: aqua;
+}
+}
